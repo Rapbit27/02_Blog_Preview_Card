@@ -14,7 +14,6 @@ html {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    width: 100vw;
 }
 
 .card {
@@ -32,7 +31,6 @@ html {
 
 .illustration {
     width: 100%;
-    max-width: 336px;
     border-radius: 10px;
 }
 
@@ -41,7 +39,6 @@ html {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    max-width: 336px;
 }
 
 .catagory {
@@ -115,12 +112,4 @@ footer{
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
-
-
-@media screen and (max-width:320px) {
-    .card {
-        max-width: 279px;
-        max-height: 453px;
-    }
 }
