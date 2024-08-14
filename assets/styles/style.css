@@ -8,7 +8,7 @@ html {
     background-color: #F4DD4E;
 }
 
-.main {
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
